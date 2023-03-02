@@ -1,6 +1,6 @@
 import pandas as pd
 import sqlite3
-import util
+from eric_chen_forward import util
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
